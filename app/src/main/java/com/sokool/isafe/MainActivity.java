@@ -1,9 +1,10 @@
 package com.sokool.isafe;
 
 import android.os.Bundle;
-import android.support.constraint.Guideline;
-import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;
+import androidx.constraintlayout.widget.Guideline;
+import androidx.fragment.app.FragmentManager;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -67,8 +68,14 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         if (view.getId() == R.id.call_for_help) {
 
         } else if (view.getId() == R.id.budies) {
+            FragmentManager fragmentManager = getSupportFragmentManager();
+            ContactsDialogFragment contactsDialogFragment =  ContactsDialogFragment.newInstance("Buddies");
+            contactsDialogFragment.show(fragmentManager,"Buddies");
 
         } else if (view.getId() == R.id.insurance) {
+            FragmentManager fragmentManager = getSupportFragmentManager();
+            ContactsDialogFragment contactsDialogFragment =  ContactsDialogFragment.newInstance("Insurance");
+            contactsDialogFragment.show(fragmentManager,"Insurance");
 
         }
     }
