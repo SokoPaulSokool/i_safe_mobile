@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "475381444218",
+    "firebase_url": "https://eye-eye-259b8.firebaseio.com",
+    "project_id": "eye-eye-259b8",
+    "storage_bucket": "eye-eye-259b8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:475381444218:android:0e6e5fd4499fe558bcd5c3",
+        "android_client_info": {
+          "package_name": "com.sokool.isafe"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "475381444218-e0e3pljtgpmjnbttlflgprj9vjolmraq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sokool.isafe",
+            "certificate_hash": "9bedfb9fb502fe69f35d44ad1bc5ebb0a715503d"
+          }
+        },
+        {
+          "client_id": "475381444218-veig1067q28a9t43s0dh6mqal27amu4p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBRYWQwAP-VpfaYqq-MKPoMb0NwenmvjTA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "475381444218-veig1067q28a9t43s0dh6mqal27amu4p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
